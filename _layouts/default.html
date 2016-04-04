@@ -1,28 +1,21 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-	<title>
-		Test
-	</title>
 
-	<link rel="stylesheet" type="text/css" href="css/common.css">
+  {% include head.html %}
 
-</head>
-<body>
 
-<header>
-	
-	<h1> Tests </h1>
-	{% include nav.html navclass='nav-top'%}
+    <body id="page-top" class="index">
 
-</header>
+    {% include header.html %}
+    {% include services.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include team.html %}
+    {% include clients.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
 
-{{content}}
-
-<footer>
-	{% include nav.html navclass='nav-bottom'%}
-	My nice page
-</footer>
-
-</body>
+    </body>
 </html>
