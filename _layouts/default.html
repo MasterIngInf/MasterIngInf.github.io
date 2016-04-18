@@ -1,20 +1,304 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Máster en Ingeniería Informática</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/lightbox.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
 
-  {% include head.html %}
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
 
-  <body>
+<body>
+	<header id="header">      
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 overflow">
+                   <div class="social-icons pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a href="https://www.facebook.com/urjconline/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/etsii_urjc"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="http://www.urjc.es/estudiar-en-la-urjc/admision/274-master"><i class="fa fa-link"></i>
+                            </a></li>
+                            <li><a href="mailto:gsus1946@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
 
-    {% include header.html %}
+                        </ul>
+                    </div> 
+                </div>
+             </div>
+        </div>
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+                    <a class="navbar-brand" href="index.html">
+                    	<h1><img src="images/logo.png" alt="logo"></h1>
+                    </a>
+                    
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="dropdown"><a href="#">Contenido <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="direccion-gestion.html">Dirección y Gestión</a></li>
+                                <li><a href="tecnologias-informaticas.html">Tecnologías Informáticas</a></li>
+                                <li><a href="trabajo-master.html">Trabajo Fin de Máster</a></li>
+                            </ul>
+                        </li>                    
+                        <li><a href="blog.html ">Información </a></li> 
+                        <li><a href="equipo-docente.html ">Equipo Docente </a></li>                     
+                        <li><a href="admision.html">Admisión </a></li>                    
+                    </ul>
+                </div>
+                <!--<div class="search">
+                    <form role="form">
+                        <i class="fa fa-search"></i>
+                        <div class="field-toggle">
+                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        </div>
+                    </form>
+                </div>-->
+            </div>
+        </div>
+    </header>
+    <!--/#header-->
 
-    {% include footer.html %}
+    <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider">
+                    <div class="slide-text">
+                        <h1>Máster en Ingeniería Informática</h1>
+                        <p>El Máster en Ingeniería Informática de la Universidad Rey Juan Carlos te prepara para ejercer tu profesión al ser el único máster habilitante.</p>
+                        <!--<a href="#" class="btn btn-common">SIGN UP</a>-->
+                    </div>
+                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
+                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
+                   <!-- <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">-->
+                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                   <!-- <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">-->
+                </div>
+            </div>
+        </div>
+        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+    </section>
+    <!--/#home-slider-->
 
-  </body>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-service">
+                        
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="images/home/icon1.png" alt="">
+                        </div>
+                        <a href="direccion-gestion.html" > 
+                            <h2>Dirección y Gestión</h2>
+                        </a>
+                        <p>Proporciona una formación avanzada en aspectos legales, de gestión de empresas tecnológicas, planificación estratégica y de dirección de proyectos, prestando especial atención a la gestión de la innovación y de la I+D+i.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="images/home/icon2.png" alt="">
+                        </div>
+                        <a href="tecnologias-informaticas.html" >
+                            <h2>Tecnologías Informáticas</h2>
+                        </a>
+                        <p>Permite profundizar en diversos aspectos tecnológicos propios de la Ingeniería Informática que permitirán a los estudiantes tener una visión global y conocimientos de detalle de los mismos.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="images/home/icon3.png" alt="">
+                        </div>
+                        <a href="trabajo-master.html" >
+                            <h2>Trabajo Fin de Máster</h2>
+                        </a>
+                        
+                        <p>Consiste en la elaboración de un proyecto integral de Ingeniería Informática de naturaleza profesional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#services-->
 
+    <section id="action" class="responsive">
+        <div class="vertical-center">
+             <div class="container">
+                <div class="row">
+                    <div class="action take-tour">
+                        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <h1 class="title">INSCRIPCIÓN ABIERTA HASTA EL 25 DE JUNIO</h1>
+                           <!-- <p>A responsive, retina-ready &amp; wide multipurpose template.</p>-->
+                        </div>
+                        <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="tour-button">
+                                <a href="https://www.urjc.es/estudios/master/910-ingenieria-informatica#admisi%C3%B3n-y-matricula" class="btn btn-common">INSCRÍBETE</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!--/#action-->
+
+    <section id="features">
+        <div class="container">
+            <div class="row">
+
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="images/home/image1.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Sistemas e Interfaces Móviles y Multimedia</h2>
+                        <P>Pork belly leberkas cow short ribs capicola pork loin. Doner fatback frankfurter jerky meatball pastrami bacon tail sausage. Turkey fatback ball tip, tri-tip tenderloin drumstick salami strip steak.</P>
+                    </div>
+                </div>
+
+                <div class="single-features">
+                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Cloud Computing</h2>
+                        <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>
+                    </div>
+                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="images/home/image2.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="images/home/image3.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Inteligencia Artificial</h2>
+                        <P>Ut officia cupidatat anim excepteur fugiat cillum ea occaecat rump pork chop tempor. Ut tenderloin veniam commodo. Shankle aliquip short ribs, chicken eiusmod exercitation shank landjaeger spare ribs corned beef.</P>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+     <!--/#features-->
+
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
+                        <h1 class="title">Entidades Colaboradoras</h1>
+                       <!-- <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>-->
+                    </div>
+                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="images/home/client3.png" class="img-responsive" alt=""></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="images/home/client4.png" class="img-responsive" alt=""></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!--/#clients-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center bottom-separator">
+                    <img src="images/coming-soon-bg.png" class="img-responsive inline" alt="">
+                </div>
+                
+                <h2 class="page-header">¿Dónde estamos?</h2>
+                   
+                <div id="map-container">
+                   
+
+                <section id="map-section">
+                    <div class="container">
+                        <div id="gmap"></div>
+                        <div class="contact-info">
+                            <h2>Contacto</h2>
+                            <address>
+                            <i class="fa fa-envelope-o"></i><a href="mailto:carlos.cuesta@urjc.es"> carlos.cuesta@urjc.es</a> <br> 
+                            <i class="fa fa-phone"></i> </i><a href="tel:+911231212"> +34 91 123 12 12</a><br>
+                            <i class="fa fa-fax"></i> +34 91 123 12 12 <br> 
+                            </address>
+
+                            <h2>Dirección</h2>
+                            <address>
+                            ETSII, URJC. <br> 
+                            Tulipán, s/n <br> 
+                            Móstoles, Madrid <br> 
+                            28933 <br> 
+                            </address>
+                        </div>
+                    </div>
+                 </section> <!--/#map-section-->  
+
+                
+                <div class="col-sm-12">
+                    <div class=" text-center">
+                        <p>&copy; Universidad Rey Juan Carlos. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="js/gmaps.js"></script>
+
+</body>
 </html>
