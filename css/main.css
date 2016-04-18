@@ -665,6 +665,16 @@ ul.sub-menu {
   display: block;
 }
 
+
+.single-service h2:hover{
+  color: #E41613;
+}
+
+/*.single-service img:hover {
+  width: 25%;
+  height: 25%;
+}*/
+
 .single-service img {
   margin-bottom: 35px;
 }
@@ -769,7 +779,7 @@ ul.sub-menu {
 }
 
 #company-information .padding-top{
-  padding-top: 172px;
+  padding-top: 10px;
   
 }
 
@@ -1620,6 +1630,16 @@ Blog Default
 }
 
 .arrow-left:before{
+  position: relative;
+  left: -2px;
+  content: "";
+  top: 86px;
+  background: url(../images/blog/right.png);
+  width: 43px;
+  height: 54px;
+}
+
+.arrow-left2:before{
   position: absolute;
   left: -2px;
   content: "";
@@ -1628,6 +1648,7 @@ Blog Default
   width: 43px;
   height: 54px;
 }
+
 
 .post-title {
   margin-top: 0;
