@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Información</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet"> 
-    <link href="css/animate.min.css" rel="stylesheet"> 
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <title>Blog </title>
+    <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../../../css/lightbox.css" rel="stylesheet"> 
+    <link href="../../../../css/animate.min.css" rel="stylesheet"> 
+	<link href="../../../../css/main.css" rel="stylesheet">
+	<link href="../../../../css/responsive.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../../../../images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../../images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../../images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../../images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../../../../images/ico/apple-touch-icon-57-precomposed.png">
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "7e8eb33b-fbe0-4915-9b93-09490e3d10df", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 </head><!--/head-->
 
 <body>
-    <header id="header">      
+	<header id="header">      
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 overflow">
@@ -52,38 +55,31 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="index.html">
-                        <h1><img src="images/logo.png" alt="logo"></h1>
+                    <a class="navbar-brand" href="../../../../index.html">
+                        <h1><img src="../../../../images/logo.png" alt="logo"></h1>
                     </a>
                     
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="../../../../index.html">Home</a></li>
                         <li class="dropdown"><a href="#">Contenido <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="direccion-gestion.html">Dirección y Gestión</a></li>
-                                <li><a href="tecnologias-informaticas.html">Tecnologías Informáticas</a></li>
-                                <li><a href="trabajo-master.html">Trabajo Fin de Máster</a></li>
+                                <li><a href="../../../../direccion-gestion.html">Dirección y Gestión</a></li>
+                                <li><a href="../../../../tecnologias-informaticas.html">Tecnologías Informáticas</a></li>
+                                <li><a href="../../../../trabajo-master.html">Trabajo Fin de Máster</a></li>
                             </ul>
                         </li>                    
-                        <li><a href="informacion.html ">Información </a></li> 
-                        <li><a href="equipo-docente.html ">Equipo Docente </a></li>                     
-                        <li><a href="admision.html">Admisión </a></li>                    
+                        <li><a href="../../../../informacion.html ">Información </a></li> 
+                        <li><a href="../../../../equipo-docente.html ">Equipo Docente </a></li>                     
+                        <li><a href="../../../../admision.html">Admisión </a></li>                    
                     </ul>
                 </div>
-                <!--<div class="search">
-                    <form role="form">
-                        <i class="fa fa-search"></i>
-                        <div class="field-toggle">
-                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                        </div>
-                    </form>
-                </div>-->
             </div>
         </div>
     </header>
     <!--/#header-->
+
 
     <section id="page-breadcrumb">
         <div class="vertical-center sun">
@@ -92,52 +88,16 @@
                     <div class="action">
                         <div class="col-sm-12">
                             <h1 class="title">Información</h1>
-                           <!-- <p>Blog with right sidebar</p>-->
-                        </div>
+                        </div>                                                                                
                     </div>
                 </div>
             </div>
         </div>
-   </section>
+    </section>
     <!--/#page-breadcrumb-->
 
-    <section id="blog" class="padding-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 col-sm-7">
-                    <div class="row">
+    {{content}}
 
-                    {% for post in site.posts %}
-                         <div class="col-sm-12 col-md-12">
-                            <div class="single-blog single-column">
-                                <div class="post-thumb">
-                                    <a href="{{ post.url }}"><img src="{{ post.image }}" class="img-responsive" alt=""></a>
-                                    <div class="post-overlay">
-                                       <span class="uppercase"><a href="#">{{ post.day }} <br><small>{{ post.month }} </small></a></span>
-                                   </div>
-                                </div>
-                                <div class="post-content overflow">
-                                    <h2 class="post-title bold"><a href="blogdetails.html">{{ post.title }} </a></h2>
-                                    <h3 class="post-author"><a >{{ post.author }} </a></h3>
-                                    <p>{{ post.description }}</p>
-                                    <a href="{{ post.url }}" class="read-more">Leer más</a>
-                                    <div class="post-bottom overflow">
-                                        <ul class="nav navbar-nav post-nav">
-                                            <li><a><i class="fa fa-tag"></i>{{ post.categories }}</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-
-                 </div>
-            </div>
-        </div>
-    </section>
-    <!--/#blog-->
-
-   
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -184,12 +144,13 @@
     <!--/#footer-->
 
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript" src="../../../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../js/lightbox.min.js"></script>
+    <script type="text/javascript" src="../../../../js/wow.min.js"></script>
+    <script type="text/javascript" src="../../../../js/main.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script type="text/javascript" src="js/gmaps.js"></script>
+    <script type="text/javascript" src="../../../../js/gmaps.js"></script>
+
 </body>
 </html>
