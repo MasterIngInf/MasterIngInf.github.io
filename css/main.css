@@ -988,6 +988,9 @@ h3.top-zero{
 
 #company-information.choose .padding-top{
   padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 0px;
 }
 
 #company-information h2{
