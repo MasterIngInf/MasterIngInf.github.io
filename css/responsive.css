@@ -64,6 +64,12 @@
     border-width:78px 106px 0;
   }
 
+   #home-slider .slider-house {
+   position: absolute;
+   right: 220px;
+   bottom: -30px;
+  }
+
 }
 
 /* sm */

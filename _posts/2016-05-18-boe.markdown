@@ -1,0 +1,13 @@
+---
+layout: post
+title:  BOE
+day:   18
+month:  MAY
+categories: Noticias
+author: Carlos E. Cuesta
+description: Boletín Oficial del Estado en cuanto a títulos habilitantes
+image: ../images/informacion/2.jpg
+---
+Cuando se trate de títulos que habiliten para el ejercicio de actividades rofesionales reguladas en España, el Gobierno establecerá las condiciones a las que deberán adecuarse los correspondientes planes de estudios (...)
+Estos planes de estudios deberán diseñarse de forma que permitan obtener las competencias necesarias para ejercer esa .profesión
+
