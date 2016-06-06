@@ -104,7 +104,7 @@
             <div class="row">
                 <div class="col-sm-6 padding-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0ms">
                     <ul class="elements">
-                        {% for post in site.posts limit:3%}
+                        {% for post in site.posts%}
                             <li class="wow fadeInUp" data-wow-duration="900ms" data-wow-delay="100ms"><i class="fa fa-angle-right"></i> {{ post.date | date: '%B %-d, %Y' }}  &mdash;  <a href="{{ post.url }}">{{ post.title }} </a></li>
                         {% endfor %}
                     </ul>
