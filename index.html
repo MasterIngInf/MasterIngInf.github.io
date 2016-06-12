@@ -1,3 +1,6 @@
+---
+# Jekyll front matter
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -278,50 +281,7 @@
      </section>
     <!--/#clients-->
 
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center bottom-separator">
-                    <img src="images/coming-soon-bg.png" class="img-responsive inline" alt="">
-                </div>
-                
-                <h2 class="page-header">¿Dónde estamos?</h2>
-                   
-                <div id="map-container">
-                   
-
-                <section id="map-section">
-                    <div class="container">
-                        <div id="gmap"></div>
-                        <div class="contact-info">
-                            <h2>Contacto</h2>
-                            <address>
-                            <i class="fa fa-envelope-o"></i><a href="mailto:carlos.cuesta@urjc.es"> carlos.cuesta@urjc.es</a> <br> 
-                            <i class="fa fa-phone"></i> </i><a href="tel:+911231212"> +34 91 123 12 12</a><br>
-                            <i class="fa fa-fax"></i> +34 91 123 12 12 <br> 
-                            </address>
-
-                            <h2>Dirección</h2>
-                            <address>
-                            ETSII, URJC. <br> 
-                            Tulipán, s/n <br> 
-                            Móstoles, Madrid <br> 
-                            28933 <br> 
-                            </address>
-                        </div>
-                    </div>
-                 </section> <!--/#map-section-->  
-
-                
-                <div class="col-sm-12">
-                    <div class=" text-center">
-                        <p>&copy; Universidad Rey Juan Carlos. All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--/#footer-->
+    {% include footer.html %}
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
