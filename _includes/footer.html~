@@ -1,0 +1,45 @@
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center bottom-separator">
+                    <img src="images/coming-soon-bg.png" class="img-responsive inline" alt="">
+                </div>
+                
+                <h2 class="page-header">¿Dónde estamos?</h2>
+                   
+                <div id="map-container">
+                   
+
+                <section id="map-section">
+                    <div class="container">
+                        <div id="gmap"></div>
+                        <div class="contact-info">
+                            <h2>Contacto</h2>
+                            <address>
+                            <i class="fa fa-envelope-o"></i> &nbsp;<a href="mailto:master.ingenieriainformatica@urjc.es">master.ingenieriainformatica@urjc.es</a> <br> 
+                            <i class="fa fa-phone"></i> </i> &nbsp;<a href="tel:+914888532">+34 91 488 8532</a><br>
+                            <i class="fa fa-fax"> &nbsp;</i>+34 91 488 8540 <br> 
+                            </address>
+
+                            <h2>Dirección</h2>
+                            <address>
+			    ETS Ingeniería Informática <br>
+			    Universidad Rey Juan Carlos. <br> 
+                            Tulipán, s/n <br> 
+                            Móstoles, Madrid <br> 
+                            28933 <br> 
+                            </address>
+                        </div>
+                    </div>
+		</section> <!--/#map-section-->
+
+                
+                <div class="col-sm-12">
+                    <div class=" text-center">
+                        <p>&copy; Universidad Rey Juan Carlos. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->

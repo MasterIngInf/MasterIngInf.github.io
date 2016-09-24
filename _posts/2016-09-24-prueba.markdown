@@ -1,0 +1,12 @@
+---
+layout: post
+title: probando
+day: 24
+month: SEP
+categories: Pruebas
+author: Carlos E. Cuesta
+description: It's alive
+image: ../images/404.png
+---
+
+Probando uno dos tres
